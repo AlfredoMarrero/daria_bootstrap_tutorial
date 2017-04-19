@@ -21,6 +21,7 @@
   <!-- Custom styles for this template -->
   <link href="css/custom.css" rel="stylesheet">
 
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
   <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
   <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
   <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
@@ -63,23 +64,73 @@
       <!-- SLIDER -->
       <div class="container-fluid slider-full">
         <div class="container">
-            <img class="img-responsive" src="img/slider1.jpg" alt="Min image of the page">
+          <img class="img-responsive" src="img/slider1.jpg" alt="Min image of the page">
 
         </div>
         <!-- CONTENT -->
       </div><!-- /.container -->
 
-     <div class="container pad50t50b">
-       <div class="col-md-3">
-         Some text here
-       </div>
-       <div class="col-md-5">
-         More thext here
-       </div>
-       <div class="col-md-3 col-md-offset-1">
-         Last text here
-       </div>
-     </div>
+      <div class="container pad50t50b">
+        <div class="col-md-3 sidebar1">
+          <div class="row pad25b">
+            <div id="MainMenu">
+              <h2>Sidebar navigation</h2>
+              <div class="list-group panel">
+                <a href="#" class="list-group-item strong top-level-nav" data-toggle="collapse" data-parent="#MainMenu">Home</a>
+                <a href="#" class="list-group-item strong top-level-nav" data-toggle="collapse" data-parent="#MainMenu">About Us</a>
+                <a href="#demo3" class="list-group-item strong top-level-nav" data-toggle="collapse" data-parent="#MainMenu">News <i class="fa fa-caret-down"></i></a>
+                <div class="collapse" id="demo3">
+                  <a href="#SubMenu1" class="list-group-item strong sub-level-nav" data-toggle="collapse" data-parent="#SubMenu1">Lorem ipsum <i class="fa fa-caret-down"></i></a>
+                  <div class="collapse list-group-submenu" id="SubMenu1">
+                    <a href="#" class="list-group-item" data-parent="#SubMenu1">Lorem ipsum dolor sit amet</a>
+                    <a href="#" class="list-group-item" data-parent="#SubMenu1">consectetur adipisicing elit</a>
+                    <a href="#SubSubMenu1" class="list-group-item strong" data-toggle="collapse" data-parent="#SubSubMenu1">Lorem ipsum <i class="fa fa-caret-down"></i></a>
+                    <div class="collapse list-group-submenu list-group-submenu-1" id="SubSubMenu1">
+                      <a href="#" class="list-group-item" data-parent="#SubSubMenu1">Lorem</a>
+                      <a href="#" class="list-group-item" data-parent="#SubSubMenu1">Ipsum Dolor</a>
+                    </div>
+                    <a href="#" class="list-group-item" data-parent="#SubMenu1">Sit Amet</a>
+                    <a href="#SubSubMenu3" class="list-group-item strong" data-toggle="collapse" data-parent="#SubSubMenu3"> Consectetur <i class="fa fa-caret-down"></i></a>
+                    <div class="collapse list-group-submenu list-group-submenu-1" id="SubSubMenu3">
+                      <a href="#" class="list-group-item" data-parent="#SubSubMenu3">Adipiscing</a>
+                      <a href="#" class="list-group-item" data-parent="#SubSubMenu3">Elit</a>
+                    </div>
+                  </div>
+                </div>
+                <a href="#" class="list-group-item strong top-level-nav">Some other link</a>
+              </div>
+            </div><!-- sidebar menu -->
+          </div>
+          <div class="row pad25b">
+            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, a.</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, delectus.</p>
+          </div>
+          <div class="row pad25b">
+            <h3>Side bar navigation.</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, delectus.</p>
+          </div>
+
+        </div>
+        <div class="col-md-5 main-content">
+          <h2>Daria</h2>
+          <h3>Lorem ipsum dolor sit.</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum quasi repellendus quas? Placeat fugiat recusandae nulla vero sed similique atque deserunt unde temporibus saepe soluta iure reprehenderit, quidem esse dolor rerum ex ipsum expedita voluptate pariatur facilis, doloribus! Similique iure aliquam, voluptates quod perspiciatis error officia, quo enim, consequuntur explicabo ex porro ab accusamus. Veniam ipsam laudantium at praesentium nemo consequatur neque quaerat hic expedita vitae, nam cupiditate, similique minima quibusdam sit qui minus assumenda voluptatibus est dicta deserunt! Ratione deleniti officia, possimus quam minus aliquid quisquam dolorem sapiente. Officia vel fugit dicta aspernatur cum, molestiae eos. Atque exercitationem, vel?</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, dolore.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, molestias.</p>
+        </div>
+        <div class="col-md-3 col-md-offset-1">
+
+          <div class="row sidebar2">
+            <h3>Lorem ipsum dolor sit.</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, nesciunt.</p>
+          </div>
+          <div class="row sidebar2">
+            <h3>Lorem ipsum dolor sit.</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, nesciunt.</p>
+          </div>
+        </div>
+      </div>
+
 
 
     <!-- Bootstrap core JavaScript
