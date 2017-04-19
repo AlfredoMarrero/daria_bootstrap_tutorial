@@ -10,7 +10,7 @@
   <meta name="author" content="">
   <link rel="icon" href="../../favicon.ico">
 
-  <title>Starter Template for Bootstrap</title>
+  <title>Daria Theme</title>
 
   <!-- Bootstrap core CSS -->
   <link href="css/bootstrap.css" rel="stylesheet">
@@ -130,14 +130,55 @@
           </div>
         </div>
       </div>
+      <div class="container-fluid slider-full">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 col-md-2"> 
+              <h4>Footer Navigation</h4>
+              <ul class="imp-links">
+                <li><a href="#">Link no 1</a></li>
+                <li><a href="#">Link no 2</a></li>
+                <li><a href="#">Link no 3</a></li>
+                <li><a href="#">Link no 4</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-2">
+            <h4>Footer Navigation 2</h4>
+              <ul class="imp-links">
+                <li><a href="#">Link no 1</a></li>
+                <li><a href="#">Link no 2</a></li>
+                <li><a href="#">Link no 3</a></li>
+                <li><a href="#">Link no 4</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <h4>Subscribe</h4>
+                <form action="" class="form-inline" role="form" method="POST"></form>
+                <div class="subscribe" id="form-group">
+                    <input type="text" id="address" placeholder="Your email address" name="email" data-validate="validate(required, email)">
+                    <button type="submit">Subscribe</button>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe aliquam, explicabo adipisci, illum nisi accusantium.</p>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <img class="img-responsive" src="https://placehold.it/350x150" alt="Footer image">
 
-
-
+            </div>
+          </div>
+        </div>
+      </div>
+<?php include "footer.php" ?>
+      <div class="container-fluid inverse">
+        <div class="container">
+          <p class="text-center">(c) 2016 LayoutSchool.com</p>
+        </div>
+      </div>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+
     <script src="js/bootstrap.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>

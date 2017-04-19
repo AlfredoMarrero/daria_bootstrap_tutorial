@@ -6,7 +6,7 @@ http://getbootstrap.com/examples/navbar-fixed-top/
 
 body {
   padding-top: 50px;
-  min-height: 2000px;
+ /* min-height: 2000px;*/
   font-size:18px;
 }
 
@@ -157,4 +157,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .sidebar2 h3 {
 	color: #ecdbff;
+}
+
+.inverse {
+	background:black;
+	color: white;
 }
