@@ -163,3 +163,9 @@ h1, h2, h3, h4, h5, h6 {
 	background:black;
 	color: white;
 }
+
+.no-slider {
+	background-image: url(../img/004.jpg);
+	height: 80px;
+	width: 100%;
+}
