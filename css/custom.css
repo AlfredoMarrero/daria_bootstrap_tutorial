@@ -41,6 +41,11 @@ sidebar dimensions
 /*
 MAIN CONTENT
 */
+
+.main-content.no-line{
+	border:none;
+}
+
 .main-content h1 {
   font-weight: 700;
   font-size: 26px;
@@ -272,3 +277,52 @@ a.list-group-item.strong.sub-level-nav {
   width:99%;
   margin-left: 0.5%;
 }
+
+/*FOOTER*/
+
+footer {
+	padding-top: 40px 0 10px;
+	font-size: 10px;
+}
+
+footer ul {
+	list-style-type: none;
+}
+
+.copyright {
+	padding: 20px 0;
+	font-size: 12px;
+}
+
+.imp-links li a {
+	color:black;
+}
+
+.imp-links li a:hover{
+	text-decoration: none;
+	color: purple;
+}
+
+footer button, .contact-submit button  {
+    background-color: purple;
+    color: white;
+    border: none;
+    padding: 4px;
+}
+
+
+/*
+CONTACT
+*/
+
+.contact {
+	padding: 50px 0;
+}
+
+.alert-daria {
+	color: white;
+	background-color: rgba(218, 177, 234, 1);;
+	border-color: #d6e9c6;
+
+}
+
